@@ -6,16 +6,26 @@ let emp4 = '#756bb1';
 let emp5 = '#54278f';
 
 let popColor = ["step",
-  ["get", "pop50"],
-  "#DFEFFB",
-  10000,
-  "#A6CFE1",
-  25000,
-  "#4D9DC0",
-  50000,
-  "#0078AE",
-  100000,
-  "#004E76"
+  ["get", "Class"],
+  "#ffffff",
+  0,
+  "#319FA9",
+  1,
+  "#1F0044",
+  2,
+  "#FFD172",
+  3,
+  "#ADC635",
+  4,
+  "#126D83",
+  5,
+  "#DD9526",
+  6,
+  "#9759C9",
+  7,
+  "#FF4248",
+  8,
+  "#126D83"
 ];
 
 let empColor = ["step",
@@ -35,7 +45,7 @@ const secondaryMapLayers = {
   pop: {
     id: "pop",
     type: "fill",
-    source: "MCD",
+    source: "housing",
     layout: {},
     paint: {
       "fill-outline-color": "#748388",
