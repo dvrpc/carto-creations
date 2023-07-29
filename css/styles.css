@@ -429,66 +429,54 @@ nav {
 }
 /* Score Colors */
 .pop-1 {
-  background: #dfeffb;
+  background: #319FA9;
 }
 .pop-2 {
-  background: #a6cfe1;
+  background: #1F0044;
 }
 .pop-3 {
-  background: #4d9dc0;
+  background: #FFD172;
 }
 .pop-4 {
-  background: #0078ae;
+  background: #ADC635;
 }
 .pop-5 {
-  background: #004e76;
+  background: #126D83;
 }
-.popABS-1 {
-  background: #cccccc;
+.pop-6 {
+  background: #DD9526;
 }
-.popABS-2 {
-  background: #dfeffb;
+.pop-7 {
+  background: #9759C9;
 }
-.popABS-3 {
-  background: #a6cfe1;
-}
-.popABS-4 {
-  background: #4d9dc0;
-}
-.popABS-5 {
-  background: #0078ae;
-}
-.popPER-1 {
-  background: #dfeffb;
-}
-.popPER-2 {
-  background: #a6cfe1;
-}
-.popPER-3 {
-  background: #4d9dc0;
-}
-.popPER-4 {
-  background: #0078ae;
-}
-.emp-0 {
-  background: #cccccc;
-}
-.emp-1 {
-  background: #dadaeb;
-}
-.emp-2 {
-  background: #bcbddc;
-}
-.emp-3 {
-  background: #9e9ac8;
-}
-.emp-4 {
-  background: #756bb1;
-}
-.emp-5 {
-  background: #54278f;
+.pop-8 {
+  background: #FF4248;
 }
 
+.emp-1 {
+  background: #efd259;
+}
+.emp-2 {
+  background: #4b86c6;
+}
+.emp-3 {
+  background: #019653;
+}
+.emp-4 {
+  background: #89c653;
+}
+.emp-5 {
+  background: #f15b22;
+}
+.emp-6 {
+  background: #f9a13f;
+}
+.emp-7 {
+  background: #7f3f98;
+}
+.emp-8 {
+  background: #d9549f;
+}
 /* End Score Colors */
 
 /* Footer */
@@ -534,17 +522,5 @@ td, th {
 .crashtable .odd {
   background: #ededed;
 }
-/* .crashtable .odd th {
-  padding: 4px;
-}
-.crashtable .odd td {
-  padding: 2px;
-}
-.crashtable .even th {
-  padding: 4px;
-}
-.crashtable .even td {
-  padding: 2px;
-} */
 
 /* END Footer */

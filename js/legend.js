@@ -7,55 +7,79 @@ const createLegendItem = (val) => {
   if (legendDetails.label === "pop") {
     return `
         <div class="flex-column">
-          <h3 class="legend-h3">People</h3>
+          <h3 class="legend-h3">Submarkets</h3>
           
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon pop-1"></span>
-            <span>Less than 10,000</span>
+            <span>Submarket 1</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon pop-2"></span>  
-            <span>10,000 to 24,999</span>
+            <span>Submarket 2</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon pop-3"></span>  
-            <span>25,000 to 49,999</span>
+            <span>Submarket 3</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon pop-4"></span>
-            <span>50,000 to 99,999</span>
+            <span>Submarket 4</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon pop-5"></span>  
-            <span>100,000 or More</span>
+            <span>Submarket 5</span>
           </div>
+          <div class="flex-row flex-align-center legend-box-item">
+          <span class="legend-icon pop-6"></span>  
+          <span>Submarket 6</span>
+        </div>
+        <div class="flex-row flex-align-center legend-box-item">
+        <span class="legend-icon pop-7"></span>  
+        <span>Submarket 7</span>
+      </div>
+      <div class="flex-row flex-align-center legend-box-item">
+      <span class="legend-icon pop-8"></span>  
+      <span>Submarket 8</span>
+    </div>
         </div>
     `;
   } else if (legendDetails.label === "emp") {
     return `
       <div class="flex-column">
-        <h3 class="legend-h3">Employees</h3>
+        <h3 class="legend-h3">Submarkets</h3>
 
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon emp-1"></span>
-            <span>Fewer than 5,000</span>
+            <span>Submarket 1</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon emp-2"></span>
-            <span>5,000 to 9,999</span>
+            <span>Submarket 2</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon emp-3"></span>
-            <span>10,000 to 19,999</span>
+            <span>Submarket 3</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon emp-4"></span>
-            <span>20,000 to 39,999</span>
+            <span>Submarket 4</span>
           </div>
           <div class="flex-row flex-align-center legend-box-item">
             <span class="legend-icon emp-5"></span>
-            <span>40,000 or More</span>
+            <span>Submarket 5</span>
           </div>
+          <div class="flex-row flex-align-center legend-box-item">
+          <span class="legend-icon emp-6"></span>
+          <span>Submarket 6</span>
+        </div>
+        <div class="flex-row flex-align-center legend-box-item">
+        <span class="legend-icon emp-7"></span>
+        <span>Submarket 7</span>
+      </div>
+      <div class="flex-row flex-align-center legend-box-item">
+      <span class="legend-icon emp-8"></span>
+      <span>Submarket 8</span>
+    </div>
         </div>
       </div>
     `;

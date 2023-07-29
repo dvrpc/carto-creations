@@ -13,11 +13,11 @@ const sources = {
     data: "../data/RHI.js",
     generateId: true,
   },
-  // CNTY: {
-  //   type: "geojson",
-  //   data: "https://arcgis.dvrpc.org/portal/rest/services/Demographics/Forecast_2015to2050_County/FeatureServer/0/query?where=1%3D1&outFields=*&geometryPrecision=5&outSR=4326&f=geojson",
-  //   generateId: true,
-  // },
+  CNTY: {
+    type: "geojson",
+    data: "https://arcgis.dvrpc.org/portal/rest/services/Demographics/Forecast_2015to2050_County/FeatureServer/0/query?where=1%3D1&outFields=*&geometryPrecision=5&outSR=4326&f=geojson",
+    generateId: true,
+  },
 };
 
 export default sources;

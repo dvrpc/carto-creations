@@ -1,44 +1,52 @@
 // let emp0 = '#CCCCCC';
-let emp1 = '#dadaeb';
-let emp2 = '#bcbddc';
-let emp3 = '#9e9ac8';
-let emp4 = '#756bb1';
-let emp5 = '#54278f';
+let emp1 = '#efd259';
+let emp2 = '#4b86c6';
+let emp3 = '#019653';
+let emp4 = '#89c653';
+let emp5 = '#f15b22';
+let emp6 = '#f9a13f';
+let emp7 = '#7f3f98';
+let emp8 = '#d9549f';
+
 
 let popColor = ["step",
   ["get", "Class"],
-  "#ffffff",
-  0,
   "#319FA9",
-  1,
-  "#1F0044",
   2,
-  "#FFD172",
+  "#1F0044",
   3,
-  "#ADC635",
+  "#FFD172",
   4,
-  "#126D83",
+  "#ADC635",
   5,
-  "#DD9526",
+  "#126D83",
   6,
-  "#9759C9",
+  "#DD9526",
   7,
-  "#FF4248",
+  "#9759C9",
   8,
+  "#FF4248",
+  9,
   "#126D83"
 ];
 
 let empColor = ["step",
-  ["get", "emp50"],
+  ["get", "Class"],
   emp1,
-  5000,
+  2,
   emp2,
-  10000,
+  3,
   emp3,
-  20000,
+  4,
   emp4,
-  40000,
-  emp5
+  5,
+  emp5,
+  6,
+  emp6,
+  7,
+  emp7,
+  8,
+  emp8
 ];
 
 const secondaryMapLayers = {
@@ -63,7 +71,7 @@ const secondaryMapLayers = {
   emp: {
     id: "emp",
     type: "fill",
-    source: "MCD",
+    source: "housing",
     layout: {},
     paint: {
       "fill-outline-color": "#748388",
