@@ -10,7 +10,7 @@ let emp8 = '#d9549f';
 
 
 let popColor = ["step",
-  ["get", "Class"],
+  ["get", "submarket"],
   "#319FA9",
   2,
   "#1F0044",
@@ -31,7 +31,7 @@ let popColor = ["step",
 ];
 
 let empColor = ["step",
-  ["get", "Class"],
+  ["get", "submarket"],
   emp1,
   2,
   emp2,
@@ -56,7 +56,6 @@ const secondaryMapLayers = {
     source: "housing",
     layout: {},
     paint: {
-      "fill-outline-color": "#748388",
       "fill-opacity": {
         base: 9,
         stops: [
@@ -74,7 +73,6 @@ const secondaryMapLayers = {
     source: "housing",
     layout: {},
     paint: {
-      "fill-outline-color": "#748388",
       "fill-opacity": {
         base: 9,
         stops: [
