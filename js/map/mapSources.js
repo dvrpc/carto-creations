@@ -10,7 +10,7 @@ const sources = {
   },
   housing: {
     type: "geojson",
-    data: "../data/submarkets_v1.js",
+    data: "https://dvrpc.github.io/carto-creations/data/submarkets_v1.geojson",
     generateId: true,
   },
   CNTY: {
