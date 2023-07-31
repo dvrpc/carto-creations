@@ -10,7 +10,7 @@ const sources = {
   },
   housing: {
     type: "geojson",
-    data: "../data/submarkets_v1.geojson",
+    data: "../data/submarkets_v1.js",
     generateId: true,
   },
   CNTY: {
