@@ -19,6 +19,28 @@ const layers = {
       "fill-opacity": 0,
     },
   },
+  MCDfilter: {
+    id: "MCDfilter",
+    type: "fill",
+    source: "MCD",
+    layout: {},
+    paint: {
+      "fill-color": "#ffffff",
+      "fill-opacity": .5,
+    },
+    filter: ["!=", "mun_name", "Upper Dublin Township"],
+  },
+  MCDfilter2: {
+    id: "MCDfilter2",
+    type: "line",
+    source: "MCD",
+    layout: {},
+    paint: {
+      "line-width": 3,
+      "line-color": "#505a5e",
+    },
+    filter: ["==", "mun_name", "Upper Dublin Township"],
+  },
   muniLine: {
     id: "MCD-line",
     type: "line",
