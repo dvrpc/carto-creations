@@ -427,8 +427,33 @@ nav {
 .legend-icon:last-child {
   margin-bottom: 0;
 }
-/* Score Colors */
+/* Score Colors */  
+
 .pop-1 {
+  background: #7F3F98;
+}
+.pop-2 {
+  background: #BD69DE;
+}
+.pop-3 {
+  background: #019653;
+}
+.pop-4 {
+  background: #89C653;
+}
+.pop-5 {
+  background: #F9A13F;
+}
+.pop-6 {
+  background:#F9CF45;
+}
+.pop-7 {
+  background: #0159B8;
+}
+.pop-8 {
+  background: #F98BC9;
+}
+/* .pop-1 {
   background: #319FA9;
 }
 .pop-2 {
@@ -451,7 +476,7 @@ nav {
 }
 .pop-8 {
   background: #FF4248;
-}
+} */
 
 .emp-1 {
   background: #efd259;
