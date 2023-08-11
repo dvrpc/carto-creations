@@ -350,7 +350,7 @@ nav {
 /* Map */
 .map {
   position: relative;
-  width: 67%;
+  width: 100%;
   height: 100%;
 }
 .map-overlays-container {
@@ -360,6 +360,7 @@ nav {
   z-index: 2;
 }
 .legend-form {
+  display: none;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -397,6 +398,7 @@ nav {
 
 /* Legend Boxes */
 .legend-container {
+  display: none;
   position: absolute;
   z-index: 1;
   top: 100px;
@@ -407,6 +409,9 @@ nav {
   color: var(--theme-black);
   padding: var(--padding) 15px;
   width: max-content;
+}
+.mapboxgl-ctrl-top-right {
+ display: none;
 }
 .legend-h3 {
   width: 100%;

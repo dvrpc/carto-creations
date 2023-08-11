@@ -94,6 +94,7 @@ const secondaryMapLayers = {
       },
       "fill-color": popColor,
     },
+    // filter: ["==", "submarket", 8],
   },
   emp: {
     id: "emp",
