@@ -10,7 +10,7 @@ const sources = {
   },
   housing: {
     type: "geojson",
-    data: "https://dvrpc.github.io/carto-creations/data/submarkets_v1.geojson",
+    data: "https://arcgis.dvrpc.org/portal/rest/services/Planning/regional_housing_submarkets/FeatureServer/0/query?where=1%3D1&outFields=*&geometryPrecision=6&outSR=4326&f=geojson",
     generateId: true,
   },
   CNTY: {
