@@ -4,7 +4,7 @@ mapboxgl.accessToken =
 const initMap = () => {
   return new mapboxgl.Map({
     container: "map",
-    style: "mapbox://styles/crvanpollard/ck5fpyqti0v971itf7edp2eyd",
+    style: "mapbox://styles/crvanpollard/clmqidmqj04uh01ma2mkla3yz",
     center: [-75.2273, 40.071],
     minZoom: 8,
     bounds: [
@@ -20,7 +20,7 @@ const makeRegionalExtentEls = (map) => {
   const dvrpcExtent = {
     center: [-75.2273, 40.071],
     zoom: zoom,
-    pitch: 0,
+  //  pitch: 0,
     bearing: 0,
   };
 

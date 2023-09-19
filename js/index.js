@@ -1,7 +1,7 @@
 import makeMap from "./map/map.js";
 import sources from "./map/mapSources.js";
 import layers from "./map/mapLayers.js";
-import handleModal from "./modal.js";
+// import handleModal from "./modal.js";
 import handleForms from "./forms.js";
 import handleLegend from "./legend.js";
 // import { wire_layer_hover } from "./map/hover.js";
@@ -149,4 +149,4 @@ map.on("idle", () => {
   spinner.classList.remove("lds-ring-active");
 });
 // modal
-handleModal(modal, modalToggle, closeModal);
+// handleModal(modal, modalToggle, closeModal);
