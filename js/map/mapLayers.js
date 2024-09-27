@@ -11,28 +11,31 @@ const layers = {
     filter: ["==", "dvrpc", "Yes"],
   },
   county: {
-    id: "CNTY",
-    type: "fill",
-    source: "CNTY",
-    layout: {},
-    paint: {
-      "fill-opacity": 0,
-    },
+    'id': 'CNTY',
+    'type': 'fill',
+    'slot':'bottom',
+    'source': "CNTY",
+    'paint': {
+      'fill-color': '#0080ff', // blue color fill
+      'fill-opacity': 0.5
+  }
   },
   // MCDfilter: {
   //   id: "MCDfilter",
   //   type: "fill",
+  //   // slot: "bottom",
   //   source: "MCD",
   //   layout: {},
   //   paint: {
-  //     "fill-color": "#ffffff",
-  //     "fill-opacity": .5,
+  //     "fill-color": "#66b2b2"
+  //     // "fill-opacity": .5,
   //   },
-  //   filter: ["!=", "mun_name", "Upper Dublin Township"],
+  //   // filter: ["!=", "mun_name", "Upper Dublin Township"],
   // },
   muniLine: {
     id: "MCD-line",
     type: "line",
+    // slot: "middle",
     source: "MCD",
     layout: {},
     paint: {
@@ -93,7 +96,7 @@ const layers = {
       "fill-opacity": [
         "case",
         ["boolean", ["feature-state", "hover"], false],
-        0.8,
+        0,
         0,
       ],
     },

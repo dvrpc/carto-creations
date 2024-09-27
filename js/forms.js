@@ -17,8 +17,8 @@ const handleFormInputs = (inputs, map) => {
       // add layer on first pass
       if (checked) {
         const mapLayer = secondaryMapLayers[layer];
-        // map.addLayer(mapLayer, "road-label");
-        map.addLayer(mapLayer, "waterway-shadow");
+        map.addLayer(mapLayer, "road-label");
+        // map.addLayer(mapLayer, "waterway-shadow");
       }
     }
   });
@@ -47,8 +47,8 @@ const handleFormSelect = (selects, map) => {
         if (selected) {
           const mapLayer = secondaryMapLayers[layer];
           //  map.addLayer(mapLayer, "road-pedestrian-case");
-          map.addLayer(mapLayer, "waterway-shadow");
-          // map.addLayer(mapLayer, "road-label");
+          // map.addLayer(mapLayer, "waterway-shadow");
+          map.addLayer(mapLayer, "road-label");
           //  map.addLayer(mapLayer, "landcover");
         }
       }

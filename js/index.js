@@ -49,6 +49,24 @@ map.on("load", () => {
   let activeSelects = handleForms("select", selects, map);
   let allActiveToggles = [...activeSelects, ...activeInputs];
 
+    //  // Grey Mask for PA Counties
+    //  map.addLayer({
+    //   "id": "county2",
+    //   "type": "fill",
+    //   "source": {
+    //       type: 'vector',
+    //       url: 'https://tiles.dvrpc.org/data/dvrpc-municipal.json'
+    //   },
+    //   "source-layer": "county",
+    //   "layout": {},
+    //   paint: {
+    //   // 'fill-outline-color': '#f7c59f',
+    //       'fill-color': 'rgba(0,0,0,0.2)'
+    //   },
+    //   "filter": 
+    //   ["!=","dvrpc","Yes"]
+    //  });
+
   handleLegend(allActiveToggles, legendContainer);
   //  map.moveLayer('pop');
   // handle simple toggles - layers on/off and corresponding legend items on/off
