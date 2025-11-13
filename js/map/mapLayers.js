@@ -17,7 +17,7 @@ const layers = {
     'source': "CNTY",
     'paint': {
       'fill-color': '#0080ff', // blue color fill
-      'fill-opacity': 0.5
+      'fill-opacity': 0.0
   }
   },
   // MCDfilter: {
